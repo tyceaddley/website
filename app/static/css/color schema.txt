@@ -1,0 +1,7 @@
+#D84F0F  -- orange
+#bfb48f -- tannish color
+#3e7cb1 -- darker blue
+#6e7e85 -- light grey 
+#2e86ab -- tealish color
+
+<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript"> add keywords for search engines
