@@ -119,22 +119,20 @@ body {
   }
 }
 
-/* Paragraph descriptor */
-
 /* Nav Pills coloration */
 .nav-pills a{
-  color:#979797;
+  color:#000000;
 }
 .nav-filter {
-  color: #979797;
-	background-color:#f5f5f5;
+  color: #000000;
+	background-color:#fdfdfd;
 }
 
 .nav-pills>li>a:hover {
-  color: #737373;
-	background-color: #fdfdfd;
+  color: #D84F0F;
+	background-color: #f1f8fb;
 }
 .nav-pills .open>a, .nav-pills .open>a:active, .nav-pills .open>a:focus{
-  color: #fdfdfd;
-	background-color: #fdfdfd;
+  color: #D84F0F;
+	background-color: #bfb48f;
 }
