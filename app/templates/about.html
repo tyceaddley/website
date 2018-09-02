@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/slider.css')}}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ionicons.min.css')}}">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
@@ -52,10 +53,10 @@
     </header>
 </div>
 <div class="container-fluid">
-    <h1 class="title wow fadeInDown text-center" style="font-size:3vw; color:#3e7cb1;">My Experience and Skills</h1>
+    <h1 class="title wow fadeInDown">My Experience and Skills</h1>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-md-2 col-lg-2 col-xs-2">
                 <pre class="text-right" style="border:none; background:transparent;
                                         font-family:Open Sans; font-size:1.3vw;">
 Where:
@@ -67,7 +68,7 @@ When:
 Responsibilities:
                 </pre>
             </div>
-            <div class="col-sm-7">
+            <div class="col-md-7 col-lg-7 col-xs-7">
                 <pre class="text-left" style="border:none; background:transparent;
                                        font-family:Open Sans; font-size:1.3vw;">
 Molecular Oncology at ARUP, Salt Lake City
@@ -89,7 +90,7 @@ analyzed Sanger sequencing and fragment analysis data
 and labeled the mutations if found.
                 </pre>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3 col-lg-3 col-xs-3">
                 <a href="https://pbs.twimg.com/profile_images/2483468842/bp7ux9fuj5kbvrijfiqb_400x400.png">
                     <img src="https://pbs.twimg.com/profile_images/2483468842/bp7ux9fuj5kbvrijfiqb_400x400.png" class="img-responsive"
                          style="max-height: 50%; max-width: 50%">
@@ -99,7 +100,7 @@ and labeled the mutations if found.
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-2">
+            <div class="col-md-2 col-lg-2 col-xs-2">
                 <pre class="text-right" style="border:none; background:transparent;
                                         font-family:Open Sans; font-size:1.3vw">
 Where:
@@ -111,7 +112,7 @@ When:
 Responsibilities:
                 </pre>
             </div>
-            <div class="col-sm-7">
+            <div class="col-md-7 col-lg-7 col-xs-7">
                 <pre class="text-left" style="border:none; background:transparent;
                                        font-family:Open Sans; font-size:1.3vw;">
 ADVS Embryology Lab, Utah State University
@@ -131,7 +132,7 @@ invitro fertilization, maturation, and culturing for
 successful cloning and stem cell projects daily.
                 </pre>
             </div>
-            <div class="col-sm-3">
+            <div class="col-md-3 col-lg-3 col-xs-3">
                 <a href="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Utah_State_University_seal.svg/300px-Utah_State_University_seal.svg.png">
                     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Utah_State_University_seal.svg/300px-Utah_State_University_seal.svg.png" class="img-responsive"
                          style="max-height: 50%; max-width: 50%">
@@ -139,10 +140,10 @@ successful cloning and stem cell projects daily.
             </div>
         </div>
     </div>
-    <div class="container-fluid">
-        <h1 class="title wow fadeInDown text-center" style="font-size:3vw; color:#3e7cb1;">Education</h1>
+    <div class="col-md-12 col-lg-12 col-xs-12">
+        <h1 class="title wow fadeInDown text-center">Education</h1>
     </div>
-    <div class="col-sm-2">
+    <div class="col-md-2 col-lg-2 col-xs-2">
         <pre class="text-right" style="border:none; background:transparent;
                                 font-family:Open Sans; font-size:1.3vw;">
 Where:
@@ -150,7 +151,7 @@ Where:
 When:
         </pre>
     </div>
-    <div class="col-sm-7">
+    <div class="col-md-7 col-lg-7 col-xs-7">
         <pre class="text-left" style="border:none; background:transparent;
 	                           font-family:Open Sans; font-size:1.3vw;">
 Utah State University, Logan, Ut — Bachelor’s of Science
@@ -158,7 +159,7 @@ Utah State University, Logan, Ut — Bachelor’s of Science
 August 2012 - December 2016
         </pre>
     </div>
-    <div class="col-sm-3">
+    <div class="col-md-3 col-lg-3 col-xs-3">
         <a href="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Utah_State_University_seal.svg/300px-Utah_State_University_seal.svg.png">
             <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Utah_State_University_seal.svg/300px-Utah_State_University_seal.svg.png" class="img-responsive"
                                                                                                                                     style="max-height: 50%; max-width: 50%">
@@ -170,9 +171,9 @@ Skills Section Start
 ================================================== -->
 <section id="feature">
     <div class="container">
-        <div class="section-heading">
-            <h1 class="title wow fadeInUp" data-wow-delay=".3s" style="color:#3e7cb1; font-size=3vw;">My Skills</h1>
-            <p class="wow fadeInDown" data-wow-delay=".5s" style="font-size=1.3vw;">
+        <div class="container-fluid">
+            <h1 class="title wow fadeInUp" data-wow-delay=".3s">My Skills</h1>
+            <p class="wow fadeInDown" data-wow-delay=".5s" style="font-size=1.3vw; text-align:center;">
                 A short summary of my skills
             </p>
         </div>
@@ -222,12 +223,12 @@ Skills Section Start
                 <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1200ms">
                     <div class="media-left">
                         <div class="icon">
-                            <i class="ion-ios-americanfootball-outline"></i>
+                            <i class="ion-ios-barcode-outline"></i>
                         </div>
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Client Support</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                        <p>Customer Service<br></p>
                     </div>
                 </div>
             </div>
@@ -240,7 +241,7 @@ Skills Section Start
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Organization</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                        <p>Excel<br> Sample Management<br> </p>
                     </div>
                 </div>
             </div>
@@ -248,12 +249,12 @@ Skills Section Start
                 <div class="media wow fadeInDown animated" data-wow-duration="500ms" data-wow-delay="1800ms">
                     <div class="media-left">
                         <div class="icon">
-                            <i class="ion-ios-barcode-outline"></i>
+                            <i class="ion-ios-flask-outline"></i>
                         </div>
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading">Embryology</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.</p>
+                        <p>Molecular Cloning<br> IVF<br> IVC<br> </p>
                     </div>
                 </div>
             </div>

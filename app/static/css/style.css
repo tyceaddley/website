@@ -39,6 +39,8 @@ a:hover {
 .section-heading {
   text-align: center;
   margin-bottom: 65px;
+  font-size:3vw;
+  margin-top:65px;
 }
 
 .section-heading p {
@@ -49,10 +51,11 @@ a:hover {
 }
 
 .title {
-  font-size: 30px;
+  text-align: center;
   line-height: 1.1;
   font-weight: 300;
-  color: #333;
+  color:#3e7cb1;
+  font-size=3vw;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
